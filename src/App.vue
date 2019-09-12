@@ -13,7 +13,10 @@ export default {
     }
   },
   mounted() {
-    this.$warn.show('哈哈哈');
+    this.$success.show({
+      message: '哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈',
+      interval: 5000
+    });
   }
 }
 </script>
