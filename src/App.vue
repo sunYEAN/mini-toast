@@ -13,7 +13,7 @@ export default {
     }
   },
   mounted() {
-    this.$success.show('哈哈哈');
+    this.$warn.show('哈哈哈');
   }
 }
 </script>

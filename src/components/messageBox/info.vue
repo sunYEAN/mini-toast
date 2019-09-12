@@ -15,10 +15,10 @@
 <style scoped>
     @import "./index.css";
     .info{
-        width: 200px;
-        padding: 20px;
-        font-size: 28px;
-        margin-top: -40px;
-        margin-left: -100px;
+        width: 100px;
+        padding: 10px;
+        font-size: 14px;
+        margin-top: -20px;
+        margin-left: -50px;
     }
 </style>

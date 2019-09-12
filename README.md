@@ -1,18 +1,26 @@
 # mini-toast
 
-> A Vue.js project
+> A Vue.js Component
 
-## Build Setup
+## 使用
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+```javascript
+// 全局安装
+import Vue from 'vue';
+import MiniToast from 'mini-toast';
+Vue.use(MiniToast)
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+```vue
+this.$info.show(str);
+this.$info.show(options);
+
+this.$warn.show(str);
+this.$warn.show(options);
+
+this.$load.show(str);
+this.$load.show(options);
+
+this.$success.show(str);
+this.$success.show(options);
+```

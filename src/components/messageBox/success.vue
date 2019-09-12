@@ -24,24 +24,24 @@
 <style scoped>
     @import "./index.css";
     .success{
-        width: 220px;
-        height: 220px;
+        width: 110px;
+        height: 110px;
         display: flex;
-        padding: 20px;
-        font-size: 28px;
-        margin-top: -110px;
-        margin-left: -110px;
+        padding: 10px;
+        font-size: 14px;
+        margin-top: -55px;
+        margin-left: -55px;
         flex-direction: column;
         justify-content: space-between;
     }
     .success > span{
         color: rgba(255, 255, 255, .8);
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
     }
     .success > .icon-success {
-        width: 120px;
-        height: 120px;
+        width: 60px;
+        height: 60px;
         margin: 0 auto;
         border: 1px solid #fff;
         display: block;

@@ -24,13 +24,13 @@
 <style scoped>
     @import "./index.css";
     .warn{
-        width: 220px;
-        height: 220px;
+        width: 110px;
+        height: 110px;
         display: flex;
-        padding: 25px 20px 30px 20px;
-        font-size: 28px;
-        margin-top: -110px;
-        margin-left: -110px;
+        padding: 13px 10px 15px 10px;
+        font-size: 14px;
+        margin-top: -55px;
+        margin-left: -55px;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -39,8 +39,8 @@
         display: block;
     }
     .warn > .icon-warn {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         margin: 0 auto;
         border: 1px solid #fff;
         display: block;
