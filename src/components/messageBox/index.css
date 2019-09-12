@@ -1,0 +1,21 @@
+.wrap-enter-active,.wrap-leave-active{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+.wrap-enter,.wrap-leave-to{
+    opacity: 0;
+    transform: scale(0);
+}
+.messageBox{
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    font-size: 28px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.8);
+}
