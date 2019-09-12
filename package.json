@@ -1,7 +1,7 @@
 {
   "name": "mini-toast",
   "description": "A Vue.js project",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "yangheng <bigyangmaster@163.com>",
   "license": "MIT",
   "main": "/dist/main.js",
